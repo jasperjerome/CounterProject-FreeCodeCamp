@@ -1,0 +1,33 @@
+html, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 6em;
+    margin-bottom: 80px;
+}
+#value {
+    font-size: 5em;
+    margin-bottom: 30px;
+}
+.btn {
+    padding-inline: 30px;
+    padding-block: 15px;
+    margin: 30px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    cursor: pointer;
+}
